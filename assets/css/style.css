@@ -1,0 +1,28 @@
+html {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  background-image: linear-gradient(#72c3e9, #c1ebff);
+  height: 100%;
+  text-align: center;
+}
+
+header {
+  padding: 50px;
+}
+
+.logo {
+  width: 30%;
+}
+
+.contact-section {
+  padding-top: 50px;
+}
+
+.footer-section {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00273b;
+  color: white;
+  border-top: #003a5f 10px solid;
+}
