@@ -1,20 +1,23 @@
 html {
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   background-image: linear-gradient(#72c3e9, #c1ebff);
   height: 100%;
   text-align: center;
-}
-
-header {
-  padding: 50px;
+  color: #00273b;
 }
 
 .logo {
-  width: 30%;
+  min-width: 300px;
+  max-width: 25%;
 }
 
-.contact-section {
+.about-section, .logo-section, .island-section, .contact-section, .contact-section {
   padding-top: 50px;
+}
+
+.island {
+  min-width: 350px;
+  max-width: 40%;
 }
 
 .footer-section {
@@ -23,6 +26,19 @@ header {
   bottom: 0;
   width: 100%;
   background-color: #00273b;
-  color: white;
+  color: #c1ebff;
   border-top: #003a5f 10px solid;
+}
+
+.button {
+  background: #70c7ff;
+  color: #003a5f;
+  border-bottom: #00273b 3px solid;
+  padding: 8px 14px;
+  text-decoration: none;
+  transition: background-color 0.5s;
+}
+
+.button:hover {
+  background: #3db3ff;
 }
