@@ -1,9 +1,23 @@
 html {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   background-image: linear-gradient(#72c3e9, #c1ebff);
-  height: 100%;
   text-align: center;
   color: #00273b;
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: unset;
+  min-height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+.content {
+  padding-bottom: 150px;
 }
 
 .logo {
@@ -21,9 +35,10 @@ html {
 }
 
 .footer-section {
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
+  right: 0;
   width: 100%;
   background-color: #00273b;
   color: #c1ebff;
